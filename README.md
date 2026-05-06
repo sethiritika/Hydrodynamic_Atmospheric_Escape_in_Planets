@@ -1,6 +1,6 @@
 # Hydrodynamic Atmospheric Escape in Planets
 
-This repository provides a simple notebook interface for estimating atmospheric mass-loss rates from planetary systems. Users only need to supply the basic system parameters, such as stellar mass, planet mass, planet radius, orbital separation, gas temperature, and mean molecular weight, and the notebook evaluates mass-loss rates using commonly used models as well as our ''Mixture Model".
+This repository provides a simple notebook interface for estimating planetary atmospheric mass-loss rates. Users only need to supply the basic system parameters, such as stellar mass, planet mass, planet radius, orbital separation, gas temperature, and mean molecular weight, and the notebook evaluates mass-loss rates using commonly used models as well as our ''Mixture Model".
 
 ## Model Overview
 The example notebook computes mass-loss rates using commonly used analytic models, including the Parker wind model (E. N. Parker 1960) and the L1/L2 nozzle model, as well as their hydrodynamics-calibrated extensions- The Modified spherical model, and the Modified tidal two-tail model, respectively.
