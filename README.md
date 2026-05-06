@@ -8,7 +8,7 @@ The example notebook computes mass-loss rates using commonly used analytic model
 The Parker wind model and Modified spherical model assume approximately spherical, isotropic outflow. These models are most appropriate for planets that are less Roche-lobe filling.
 The nozzle model and Modified tidal two-tail model represent the opposite limit, where mass loss is strongly shaped by the Roche potential and escapes through narrow streams near the L1 and L2 Lagrange points. These models are most appropriate for more Roche-lobe-filling planets with cooler, more tidally confined winds.
 
-Our Mixture model provides a smooth interpolation between these spherical and L1/L2-directed anisotropic limits. Its weighting function is calibrated against 3D hydrodynamic simulations, allowing it to reproduce the simulated mass-loss rates across the explored parameter space. The calibration set spans a broad range of physically plausible hot-planet escape regimes.
+Our Mixture model provides a smooth interpolation between these spherical and L1/L2-directed anisotropic limits. Its weighting function is calibrated against 3D hydrodynamic simulations, allowing it to reproduce the simulated mass-loss rates across the explored parameter space. The calibration set spans a broad range of physically plausible escape regimes.
 
 The model implementation and calibration are described in detail in Sethi et al. 2026 (in prep.)
 
